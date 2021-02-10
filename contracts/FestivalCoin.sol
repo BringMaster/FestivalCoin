@@ -5,7 +5,7 @@ pragma solidity ^0.5.16;
 //
 // Symbol        : FEST
 // Name          : Festival Coin
-// Total supply  : 1000000000000000000000000
+// Total supply  : 100000000000000000000000000
 // Decimals      : 18
 // Owner Account : 0x2126EC768915d5A539Fb7463EB6450DBa68fd759
 //
@@ -88,7 +88,7 @@ contract FESTToken is ERC20Interface, SafeMath {
         symbol = "FEST";
         name = "Festival Coin";
         decimals = 18;
-        _totalSupply = 1000000000000000000000000;
+        _totalSupply = 100000000000000000000000000;
         balances[0x2126EC768915d5A539Fb7463EB6450DBa68fd759] = _totalSupply;
         emit Transfer(address(0), 0x2126EC768915d5A539Fb7463EB6450DBa68fd759, _totalSupply);
     }
