@@ -1,4 +1,13 @@
 var FESTToken = artifacts.require("FESTToken");
+var Freezer = artifacts.require("Freezer");
+var IBurn = artifacts.require("IBurn");
+var IERC20 = artifacts.require("IERC20");
+var IMint = artifacts.require("IMint");
+var Locker = artifacts.require("Locker");
+var Minter = artifacts.require("Minter");
+var Ownable = artifacts.require("Ownable");
+var Pauser = artifacts.require("Pauser");
+var SafeMath = artifacts.require("SafeMath");
 
 module.exports = function(deployer) {
   deployer.deploy(FESTToken);
