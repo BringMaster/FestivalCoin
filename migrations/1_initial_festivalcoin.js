@@ -1,4 +1,4 @@
-var FestivalToken = artifacts.require("FestivalToken");
+var FestivalToken = artifacts.require("FESTToken");
 
 module.exports = function(deployer) {
   deployer.deploy(FESTToken);
