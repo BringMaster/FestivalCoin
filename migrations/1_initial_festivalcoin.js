@@ -1,5 +1,5 @@
-var FestivalCoin = artifacts.require("FestivalCoin");
+var FESTToken = artifacts.require("FESTToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(FestivalCoin);
+  deployer.deploy(FESTToken);
 };
